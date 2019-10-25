@@ -2,9 +2,12 @@ package com.telahome.campobomparaoesporte;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.telahome.campobomparaoesporte.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         bt_entrarLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                setContentView(R.layout.activity_maps);
+                Intent itTelaMapa = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(itTelaMapa);
 
 
             }
@@ -38,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                setContentView(R.layout.activity_login);
+                Intent itTelaLogin= new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(itTelaLogin);
 
 
             }
