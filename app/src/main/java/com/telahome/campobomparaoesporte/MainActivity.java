@@ -17,10 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_home);
 
-        //Declarando botões
 
-        //bt_login
 
+        // BOTÃO SEM LOGIN
         Button bt_entrarLogin = (Button) findViewById(R.id.bt_entrarLogin);
 
         bt_entrarLogin.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //bt maps
+        // BOTÃO ENTRAR COM LOGIN
 
         Button bt_entrarsemLogin =(Button) findViewById(R.id.bt_entrarsemLogin);
 

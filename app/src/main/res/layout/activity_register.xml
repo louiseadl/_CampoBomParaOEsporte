@@ -62,15 +62,23 @@
             android:hint="Senha" />
 
         <Button
-            android:id="@+id/bt_register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/login" />
-
-        <Button
             android:id="@+id/bt_voltar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="VOLTAR" />
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="CADASTRE SUA CONTA"
+            android:text="@string/login"
+            tools:text="CADASTRAR" />
+
+        <TextView
+            android:id="@+id/bt_txtviwer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EU SOU UMA TELA DE REGISTRO" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
