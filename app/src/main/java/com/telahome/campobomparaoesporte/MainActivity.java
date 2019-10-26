@@ -11,42 +11,46 @@ import com.telahome.campobomparaoesporte.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    //declarar componentes
+
+    private Button btLogin;
+    private Button btMaps;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_home);
+        start();
 
 
+        //maps
 
-        // BOTÃO SEM LOGIN
-        Button bt_entrarLogin = (Button) findViewById(R.id.bt_entrarLogin);
-
-        bt_entrarLogin.setOnClickListener(new View.OnClickListener() {
+        this.btMaps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent itTelaMapa = new Intent(MainActivity.this, MapsActivity.class);
-                startActivity(itTelaMapa);
-
-
+                Intent itTelaMaps = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(itTelaMaps);
+                finish();
             }
         });
 
-        // BOTÃO ENTRAR COM LOGIN
+        //login
 
-        Button bt_entrarsemLogin =(Button) findViewById(R.id.bt_entrarsemLogin);
-
-        bt_entrarsemLogin.setOnClickListener((new View.OnClickListener() {
+        this.btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent itTelaLogin= new Intent(MainActivity.this, LoginActivity.class);
+                Intent itTelaLogin = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(itTelaLogin);
-
-
+                finish();
             }
-        }));
+        });
 
     }
 
+    //startar componentes
+
+    private void start(){
+        this.btLogin = findViewById(R.id.bt_login);
+        this.btMaps = findViewById(R.id.bt_entrar_sem_login);
+    }
 }

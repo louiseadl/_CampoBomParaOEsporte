@@ -17,63 +17,46 @@
         app:layout_constraintStart_toStartOf="parent">
 
         //usuario
-        <TextView
-            android:id="@+id/tv_usuario"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/nome" />
+
+        //email
+
+        //senha
 
         <EditText
-            android:id="@+id/et_nome"
+            android:id="@+id/et_nome_resgistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Nome"
             android:inputType="textPersonName" />
 
-        //email
-
-        <TextView
-            android:id="@+id/tv_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/email" />
-
         <EditText
-            android:id="@+id/et_email"
+            android:id="@+id/et_email_registro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="E-mail" />
-
-        //senha
-
-        <TextView
-            android:id="@+id/tv_senha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/senha" />
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/et_senha"
+            android:id="@+id/et_senha_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Senha" />
+            android:hint="senha"
+            android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/bt_voltar"
+            android:id="@+id/bt_registrar_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VOLTAR" />
+            android:text="registrar" />
 
         <Button
-            android:id="@+id/bt_register"
+            android:id="@+id/bt_voltar_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:contentDescription="CADASTRE SUA CONTA"
-            android:text="@string/login"
-            tools:text="CADASTRAR" />
+            android:text="voltar" />
 
         <TextView
             android:id="@+id/bt_txtviwer"

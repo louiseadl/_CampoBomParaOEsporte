@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bt_entrarLogin"
+        android:id="@+id/bt_entrar_sem_login"
         android:layout_width="155dp"
         android:layout_height="44dp"
         android:text="Entrar sem Login"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.665" />
 
     <Button
-        android:id="@+id/bt_entrarsemLogin"
+        android:id="@+id/bt_login"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:layout_marginBottom="152dp"

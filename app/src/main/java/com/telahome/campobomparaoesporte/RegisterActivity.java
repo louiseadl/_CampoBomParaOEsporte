@@ -6,67 +6,69 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.EditText;
 
 import com.telahome.campobomparaoesporte.ui.login.LoginActivity;
 
 public class RegisterActivity extends AppCompatActivity {
+
+    //desclarar componentes
+
+    private Button btResgistrar;
+    private Button btVoltar;
+    private EditText etNome;
+    private EditText etEmail;
+    private EditText etSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        //voltar para login
 
-
-        Button bt_voltar = (Button) findViewById(R.id.bt_voltar);
-
-        bt_voltar.setOnClickListener(new View.OnClickListener() {
+        this.btVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent itRegister = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(itRegister);
+                finish();
+            }
+        });
 
+        //registrar conta
 
-                Intent itTelaHome= new Intent(RegisterActivity.this, LoginActivity.class);
-                startActivity(itTelaHome);
+        this.btResgistrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /*
+                Usuario novo = new Usuario();
+                novo.setNome(etNome.getText().toString());
+                novo.setSenha(etSenha.getText().toString());
+                novo.setEmail(etEmail.getText().toString());
 
+                //manda o usuario pro servidor por meio do post /usuario/
 
+                 */
+
+                Intent itLogin = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(itLogin);
+                finish();
             }
         });
 
 
-
-
-
-
-        Button bt_register = (Button) findViewById(R.id.bt_register);
-
-        bt_register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                TextView et_nome = (TextView) findViewById(R.id.et_nome);
-                TextView et_email =  (TextView) findViewById(R.id.et_email);
-                TextView et_senha = (TextView) findViewById(R.id.et_senha);
-
-
-                String nome = et_nome.getText().toString();
-                String email = et_email.getText().toString();
-                String senha = et_senha.getText().toString();
-
-                if (nome.equals("")&& senha.equals("") && email.equals("")){
-                    alert("Não registrado");
-
-                } else{
-                    alert("Registrado");
-                }
-
-
-            }
-        });
     }
 
-    private void alert (String s){
-        Toast.makeText(this,s,Toast.LENGTH_LONG).show();
+    //startar componentes
+
+    public void start(){
+        this.btResgistrar.findViewById(R.id.bt_registrar_registrar);
+        this.btVoltar.findViewById(R.id.bt_voltar_registrar);
+        this.etSenha.findViewById(R.id.et_senha_registrar);
+        this.etEmail.findViewById(R.id.et_email_registro);
+        this.etNome.findViewById(R.id.et_nome_resgistro);
+
     }
 
 }

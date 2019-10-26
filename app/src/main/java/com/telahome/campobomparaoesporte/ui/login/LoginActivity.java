@@ -1,12 +1,12 @@
 package com.telahome.campobomparaoesporte.ui.login;
 
-import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.telahome.campobomparaoesporte.MainActivity;
 import com.telahome.campobomparaoesporte.MapsActivity;
@@ -17,63 +17,67 @@ import com.telahome.campobomparaoesporte.RegisterActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
+    //declarar componentes
+
+    private Button btVoltar;
+    private Button btLogin;
+    private Button btResgistrar;
+    private EditText etEmail;
+    private EditText etSenha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        start();
 
-    //---------------------------- VOLTAR ----------------------------
-        Button bt_voltar = (Button) findViewById(R.id.bt_voltar);
+        //voltar pra home
 
-        bt_voltar.setOnClickListener(new View.OnClickListener() {
+        this.btVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Intent itTelaHome= new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(itTelaHome);
-
-
+                Intent itHome = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(itHome);
+                finish();
             }
         });
-        //---------------------------- REGISTER ----------------------------
 
-        Button bt_register = (Button) findViewById(R.id.bt_register);
+        //entrar tela de registro
 
-        bt_register.setOnClickListener(new View.OnClickListener() {
+        this.btResgistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent itTelaRegister= new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(itTelaRegister);
-
-
-
+                Intent itResgistrar = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(itResgistrar);
+                finish();
             }
         });
-        //----------------------------------------------------------
 
-        TextView et_email =  (TextView) findViewById(R.id.et_email);
-        TextView et_senha = (TextView) findViewById(R.id.et_senha);
+        //Login
 
-        String email = et_email.getText().toString();
-        String senha = et_senha.getText().toString();
+        this.btLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(etEmail.getText().toString().equals("abelinha") && etSenha.getText().toString().equals("123")){
+                    Intent itMaps = new Intent(LoginActivity.this, MapsActivity.class);
+                    startActivity(itMaps);
+                    finish();
+                }else{
+                    Toast.makeText(LoginActivity.this, "tente de novo", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
 
-        if (email.equals("abelinha")&& senha.equals("123")){
+    }
 
-            Intent itTelaMapa = new Intent(LoginActivity.this, MapsActivity.class);
-            startActivity(itTelaMapa);
+    //startar componentes
 
-        } else{
-
-            Intent itTelaLogin= new Intent(LoginActivity.this, RegisterActivity.class);
-            startActivity(itTelaLogin);
-
-
-
-
-        }
+    private void start(){
+        this.btLogin = findViewById(R.id.bt_login);
+        this.btResgistrar = findViewById(R.id.bt_registrar);
+        this.btVoltar = findViewById(R.id.bt_voltar);
+        this.etEmail = findViewById(R.id.et_email);
+        this.etSenha = findViewById(R.id.et_senha);
     }
 }
 
