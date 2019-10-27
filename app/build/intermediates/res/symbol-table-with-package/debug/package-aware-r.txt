@@ -1201,6 +1201,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bt_Reegistrar
 id bt_entrar_sem_login
 id bt_login
 id bt_registrar
@@ -1462,6 +1463,7 @@ layout activity_home
 layout activity_login
 layout activity_maps
 layout activity_register
+layout activity_register2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

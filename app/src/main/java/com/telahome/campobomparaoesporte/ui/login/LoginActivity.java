@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.telahome.campobomparaoesporte.MainActivity;
 import com.telahome.campobomparaoesporte.MapsActivity;
 import com.telahome.campobomparaoesporte.R;
+import com.telahome.campobomparaoesporte.Register2Activity;
 import com.telahome.campobomparaoesporte.RegisterActivity;
 
 
@@ -31,6 +32,18 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         start();
 
+
+        Button bt_registrar = (Button) findViewById(R.id.bt_registrar);
+
+        bt_registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent TelaRegister= new Intent(LoginActivity.this, Register2Activity.class);
+                startActivity(TelaRegister);
+                finish();
+            }
+        });
+
         //voltar pra home
 
         this.btVoltar.setOnClickListener(new View.OnClickListener() {
@@ -44,14 +57,14 @@ public class LoginActivity extends AppCompatActivity {
 
         //entrar tela de registro
 
-        this.btResgistrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent itResgistrar = new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(itResgistrar);
-                finish();
-            }
-        });
+//        this.btResgistrar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent itResgistrar = new Intent(LoginActivity.this, RegisterActivity.class);
+//                startActivity(itResgistrar);
+//                finish();
+//            }
+//        });
 
         //Login
 
