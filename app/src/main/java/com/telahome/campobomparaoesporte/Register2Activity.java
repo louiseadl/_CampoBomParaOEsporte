@@ -18,6 +18,8 @@ public class Register2Activity extends AppCompatActivity {
 
         Button bbt_return = (Button) findViewById(R.id.bbt_return);
 
+        // botão de voltar
+
         bbt_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
