@@ -1,4 +1,4 @@
-package com.telahome.campobomparaoesporte.ui.gallery;
+package com.telahome.campobomparaoesporte.ui.configuracaoConta;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

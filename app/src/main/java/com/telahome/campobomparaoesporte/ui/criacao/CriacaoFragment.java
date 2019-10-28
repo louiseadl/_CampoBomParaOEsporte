@@ -1,4 +1,4 @@
-package com.telahome.campobomparaoesporte;
+package com.telahome.campobomparaoesporte.ui.criacao;
 import android.app.Fragment;
 
 import android.app.FragmentManager;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.telahome.campobomparaoesporte.R;
 
 
 public class CriacaoFragment extends Fragment {
@@ -22,3 +24,4 @@ public class CriacaoFragment extends Fragment {
         return myView;
     }
 }
+

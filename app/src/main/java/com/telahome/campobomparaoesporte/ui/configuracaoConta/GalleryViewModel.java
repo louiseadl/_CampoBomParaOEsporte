@@ -1,4 +1,4 @@
-package com.telahome.campobomparaoesporte.ui.gallery;
+package com.telahome.campobomparaoesporte.ui.configuracaoConta;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -10,7 +10,7 @@ public class GalleryViewModel extends ViewModel {
 
     public GalleryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Configurações de conta");
     }
 
     public LiveData<String> getText() {
