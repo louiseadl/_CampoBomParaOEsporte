@@ -1332,10 +1332,7 @@ id mobile_navigation
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
-id nav_configuracaoconta
-id nav_configuracaoconta_layout
 id nav_controller_view_tag
-id nav_criacao_layout
 id nav_gallery
 id nav_home
 id nav_host_fragment
@@ -1344,7 +1341,6 @@ id nav_share
 id nav_slideshow
 id nav_tools
 id nav_view
-id nav_voltarhome
 id navigation_header_container
 id never
 id none

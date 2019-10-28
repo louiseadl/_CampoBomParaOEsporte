@@ -4,31 +4,27 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+
+
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
-            android:title="configuracoes de conta" />
+            android:title="Configurações de Conta" />
+
         <item
-            android:id="@+id/nav_configuracaoconta_layout"
+            android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Criar Esportes" />
-        <item
-            android:id="@+id/nav_configuracaoconta"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Configuração de Conta" />
+
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Criar Esportes" />
+            android:title="Tela do Maps" />
         <item
-        android:id="@+id/nav_criacao_layout"
-        android:icon="@drawable/ic_menu_manage"
-        android:title="Configuração de Conta" />
-
-        <item
-            android:id="@+id/nav_voltarhome"
+            android:id="@+id/nav_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="VoltarHome" />
+            android:title="voltandoo" />
 
     </group>
 
@@ -37,11 +33,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:title="Compartilhar Aplicativo!" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:title="Enviar dados do local" />
         </menu>
     </item>
 

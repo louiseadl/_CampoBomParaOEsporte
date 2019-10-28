@@ -88,7 +88,7 @@ public class Main_LoginMapsActivity extends AppCompatActivity
 
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_tools, R.id.nav_configuracaoconta, R.id.nav_voltarhome,R.id.nav_share, R.id.nav_send)
+               R.id.nav_view, R.id.nav_tools, R.id.nav_slideshow,R.id.nav_home,R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -157,19 +157,23 @@ public class Main_LoginMapsActivity extends AppCompatActivity
 
         int id = item.getItemId();
 
-        if (id == R.id.nav_configuracaoconta_layout) {
+        if (id == R.id.nav_view) {
 
            // fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, new ConfiguracaoContaFragment()).commit();
 
-        } else if (id == R.id.nav_criacao_layout) {
+        } else if (id == R.id.nav_tools) {
            // fragmentManager.beginTransaction().replace(R.id.nav_criacao_layout, new CriacaoFragment()).commit();
 
-        } else if (id == R.id.nav_voltarhome) {
+        } else if (id == R.id.nav_slideshow) {
            // fragmentManager.beginTransaction().replace(R.id.nav_criacao_layout, new MainActivity()).commit();
+
+        } else if (id == R.id.nav_home) {
+
+        } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
-        } else if (id == R.id.nav_share) {
+
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
