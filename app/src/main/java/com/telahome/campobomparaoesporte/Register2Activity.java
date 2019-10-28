@@ -25,7 +25,6 @@ public class Register2Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent voltar = new Intent(Register2Activity.this, LoginActivity.class);
                 startActivity(voltar);
-                finish();
             }
         });
     }}

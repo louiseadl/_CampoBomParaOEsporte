@@ -15,7 +15,12 @@
         android:id="@+id/nav_gallery"
         android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_configuracaoConta" />
+        tools:layout="" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.telahome.campobomparaoesporte.ui.home.HomeFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/activity_maps" />
 
     <fragment
         android:id="@+id/nav_slideshow"

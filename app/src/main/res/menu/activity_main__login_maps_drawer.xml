@@ -18,7 +18,7 @@
             android:title="Criar Esportes" />
 
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/map"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Tela do Maps" />
         <item

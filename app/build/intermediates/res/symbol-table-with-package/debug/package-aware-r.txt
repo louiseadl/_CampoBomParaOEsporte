@@ -1637,6 +1637,7 @@ string login
 string login_failed
 string menu_gallery
 string menu_home
+string menu_map
 string menu_send
 string menu_share
 string menu_slideshow

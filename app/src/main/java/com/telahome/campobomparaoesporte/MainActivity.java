@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent itTelaMaps = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(itTelaMaps);
-                finish();
             }
         });
 
@@ -42,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent itTelaLogin = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(itTelaLogin);
-                finish();
             }
         });
 

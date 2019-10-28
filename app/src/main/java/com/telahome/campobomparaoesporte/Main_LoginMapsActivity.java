@@ -54,7 +54,6 @@ public class Main_LoginMapsActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
 
 
-
         sMapFragment = SupportMapFragment.newInstance();
 
         setContentView(R.layout.activity_main__login_maps);
@@ -80,7 +79,7 @@ public class Main_LoginMapsActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
        FragmentManager fm= getFragmentManager();
-        //fm.beginTransaction().replace(R.id.content_frame, new MainFragment()).commit();
+      // fm.beginTransaction().replace(R.id.nav_host_fragment, new MainFragment()).commit();
 
 
         // Passing each menu ID as a set of Ids because each
@@ -88,7 +87,7 @@ public class Main_LoginMapsActivity extends AppCompatActivity
 
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-               R.id.nav_view, R.id.nav_tools, R.id.nav_slideshow,R.id.nav_home,R.id.nav_share, R.id.nav_send)
+               R.id.nav_view, R.id.nav_tools, R.id.nav_slideshow,R.id.nav_home,R.id.nav_share, R.id.nav_send,R.id.map)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -159,7 +158,7 @@ public class Main_LoginMapsActivity extends AppCompatActivity
 
         if (id == R.id.nav_view) {
 
-           // fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, new ConfiguracaoContaFragment()).commit();
+            //fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, new ConfiguracaoContaFragment()).commit();
 
         } else if (id == R.id.nav_tools) {
            // fragmentManager.beginTransaction().replace(R.id.nav_criacao_layout, new CriacaoFragment()).commit();
@@ -172,6 +171,10 @@ public class Main_LoginMapsActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
+
+        } else if (id == R.id.map){
+
+
 
 
 
