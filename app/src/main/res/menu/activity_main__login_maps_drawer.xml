@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="configuracoes de conta" />
+        <item
+            android:id="@+id/nav_configuracaoconta_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Criar Esportes" />
+        <item
+            android:id="@+id/nav_configuracaoconta"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Configuração de Conta" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Criar Esportes" />
+        <item
+        android:id="@+id/nav_criacao_layout"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Configuração de Conta" />
+
+        <item
+            android:id="@+id/nav_voltarhome"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="VoltarHome" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
