@@ -109,7 +109,7 @@ public final class R {
         public static final int italic = 0x7f080095;
         public static final int line1 = 0x7f08009b;
         public static final int line3 = 0x7f08009c;
-        public static final int nav_controller_view_tag = 0x7f0800aa;
+        public static final int nav_controller_view_tag = 0x7f0800ab;
         public static final int normal = 0x7f0800b9;
         public static final int notification_background = 0x7f0800ba;
         public static final int notification_main_column = 0x7f0800bb;

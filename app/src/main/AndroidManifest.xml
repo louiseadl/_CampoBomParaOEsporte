@@ -15,8 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConfiguracaoContaActivity" />
-        <activity android:name=".CriacaoActivity" />
+        <activity
+            android:name=".Main_LoginMapsActivity"
+            android:label="@string/title_activity_main__login_maps"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Register2Activity" />
         <activity android:name=".RegisterActivity" />
         <!--
