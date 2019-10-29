@@ -10,11 +10,8 @@ import android.widget.Toast;
 
 import com.telahome.campobomparaoesporte.MainActivity;
 import com.telahome.campobomparaoesporte.Main_LoginMapsActivity;
-import com.telahome.campobomparaoesporte.MapsActivity;
 import com.telahome.campobomparaoesporte.R;
-import com.telahome.campobomparaoesporte.Register2Activity;
-import com.telahome.campobomparaoesporte.RegisterActivity;
-
+import com.telahome.campobomparaoesporte.ui.register.Register2Activity;
 
 
 public class LoginActivity extends AppCompatActivity {

@@ -1239,10 +1239,7 @@ id bt_Reegistrar
 id bt_entrar_sem_login
 id bt_login
 id bt_registrar
-id bt_registrar_registrar
-id bt_txtviwer
 id bt_voltar
-id bt_voltar_registrar
 id buttonPanel
 id cancel_action
 id center
@@ -1281,11 +1278,8 @@ id enterAlways
 id enterAlwaysCollapsed
 id et_email
 id et_email2
-id et_email_registro
-id et_nome_resgistro
 id et_senha
 id et_senha2
-id et_senha_registrar
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1418,6 +1412,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tela
 id terrain
 id text
 id text2
@@ -1519,7 +1514,6 @@ layout activity_home
 layout activity_login
 layout activity_main__login_maps
 layout activity_maps
-layout activity_register
 layout activity_register2
 layout app_bar_main__login_maps
 layout configuracaoconta_layout

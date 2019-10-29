@@ -19,8 +19,7 @@
             android:name=".Main_LoginMapsActivity"
             android:label="@string/title_activity_main__login_maps"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Register2Activity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ui.register.Register2Activity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

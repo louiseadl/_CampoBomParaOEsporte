@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.GalleryFragment"
+        android:name="com.telahome.campobomparaoesporte.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="" />
     <fragment
@@ -24,25 +24,25 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.telahome.campobomparaoesporte.ui.slideshow.SlideshowFragment"
+        android:name="com.telahome.campobomparaoesporte.ui.criarEsportes.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.telahome.campobomparaoesporte.ui.tools.ToolsFragment"
+        android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.telahome.campobomparaoesporte.ui.share.ShareFragment"
+        android:name="com.telahome.campobomparaoesporte.ui.compartilharApp.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.telahome.campobomparaoesporte.ui.send.SendFragment"
+        android:name="com.telahome.campobomparaoesporte.ui.enviarDadosLocal.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 </navigation>

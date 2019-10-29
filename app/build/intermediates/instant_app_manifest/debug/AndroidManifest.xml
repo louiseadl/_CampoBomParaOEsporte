@@ -38,7 +38,6 @@
             android:label="@string/title_activity_main__login_maps"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.telahome.campobomparaoesporte.Register2Activity" />
-        <activity android:name="com.telahome.campobomparaoesporte.RegisterActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
