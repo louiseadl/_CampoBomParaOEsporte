@@ -116,10 +116,10 @@ ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\Android
 		ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
 		ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:19:13-51
-activity#com.telahome.campobomparaoesporte.Register2Activity
-ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:9-55
+activity#com.telahome.campobomparaoesporte.ui.register.Register2Activity
+ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:9-67
 	android:name
-		ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:19-52
+		ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:19-64
 meta-data#com.google.android.geo.API_KEY
 ADDED from C:\Users\Louise\PastaProjetoCampoBomParaOEsporte\app\src\main\AndroidManifest.xml:31:9-33:55
 	android:value
