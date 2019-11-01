@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.configuracaoConta.ConfiguracaoContaActivity">
+
+    <Button
+        android:id="@+id/bt_mudar_senhaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mudar a senha" />
+
+    <Button
+        android:id="@+id/bt_mudar_nome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mudar nome" />
+
+    <Button
+        android:id="@+id/bt_deletar_conta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir conta" />
+
+    <CheckBox
+        android:id="@+id/cb_confirmar_deletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realmente desejo excluir minha conta" />
+
+    <Button
+        android:id="@+id/bt_voltar_cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+</LinearLayout>

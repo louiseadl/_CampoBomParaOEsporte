@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.configuracaoConta.MudarNomeActivity">
+
+    <EditText
+        android:id="@+id/et_novo_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Novo nome"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/ch_confirmar_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmo que quero mudar de nome" />
+
+    <Button
+        android:id="@+id/bt_mudar_nome_tela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mudar de nome" />
+
+    <Button
+        android:id="@+id/bt_voltar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha" />
+</LinearLayout>

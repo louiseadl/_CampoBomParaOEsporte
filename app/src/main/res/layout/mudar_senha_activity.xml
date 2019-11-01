@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.configuracaoConta.ConfiguracaoContaActivity">
+
+    <EditText
+        android:id="@+id/et_senha_nova"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite a nova senha"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_senha_velha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite a senha atual"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/bt_confirmar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmo que quero mudar minhas senha" />
+
+    <Button
+        android:id="@+id/bt_mudar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mudar de senha" />
+
+    <Button
+        android:id="@+id/bt_voltar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+</LinearLayout>
