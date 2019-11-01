@@ -89,8 +89,6 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "Falha na comunicação! Verifique sua internet e tente novamente!", Toast.LENGTH_LONG).show();
                         if (etEmail.getText().toString().equals("aelinha") && etSenha.getText().toString().equals("123")){
 
-                        } else {
-
                         }
                     }
                 });
