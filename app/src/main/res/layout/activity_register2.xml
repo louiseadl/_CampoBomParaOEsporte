@@ -9,7 +9,7 @@
     tools:context=".ui.register.Register2Activity">
 
     <EditText
-        android:id="@+id/et_nome"
+        android:id="@+id/et_nome3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -18,7 +18,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/et_email3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -27,7 +27,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/et_senha"
+        android:id="@+id/et_senha3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"

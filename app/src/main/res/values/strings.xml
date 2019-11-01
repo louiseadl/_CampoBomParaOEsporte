@@ -33,5 +33,6 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_main__login_maps">Main_LoginMapsActivity</string>
+    <string name="title_activity_criar_esporte">CriarEsporteActivity</string>
 
 </resources>

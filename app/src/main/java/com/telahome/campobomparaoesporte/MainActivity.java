@@ -1,12 +1,12 @@
 package com.telahome.campobomparaoesporte;
 
-import androidx.appcompat.app.AppCompatActivity;
-import android.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.telahome.campobomparaoesporte.ui.login.LoginActivity;
 
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btLogin;
     private Button btMaps;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //login
+        //logins
 
         this.btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
