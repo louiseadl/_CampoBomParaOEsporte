@@ -1,13 +1,13 @@
 package com.telahome.campobomparaoesporte.ui.register;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.telahome.campobomparaoesporte.Models.Usuario;
 import com.telahome.campobomparaoesporte.R;
@@ -19,7 +19,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class Register2Activity extends AppCompatActivity {
@@ -53,10 +52,26 @@ public class Register2Activity extends AppCompatActivity {
                 usuario.setEmail(etEmail.getText().toString());
                 usuario.setNome(etNome.getText().toString());
                 usuario.setSenha(etSenha.getText().toString());
+                UsuarioServices service = retrofit.create(UsuarioServices.class);
+                service.setUsuario(usuario).enqueue(new Callback<Usuario>() {
+                    @Override
+                    public void onResponse(Call<Usuario> call, Response<Usuario> response) {
+                        if(response.isSuccessful()) {
+                            Toast.makeText(Register2Activity.this, "Usuario cadastrado com sucesso!", Toast.LENGTH_LONG).show();
+                        } else {
+                            Toast.makeText(Register2Activity.this, "Falha no cadastro, tente novamente mais tarde!", Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+
+                    @Override
+                    public void onFailure(Call<Usuario> call, Throwable t) {
+                        Toast.makeText(Register2Activity.this, "Falha na comunicação! Verifique sua internet e tente novamente!", Toast.LENGTH_LONG).show();
+                    }
+                });
 
             }
         });
-
 
     }
 

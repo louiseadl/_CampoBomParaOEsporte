@@ -1,5 +1,7 @@
 package com.telahome.campobomparaoesporte.Models;
 
+import com.telahome.campobomparaoesporte.LoggedUsuario;
+
 public class Esporte {
 	
 	//atributos
@@ -44,12 +46,13 @@ public class Esporte {
 	public Esporte() {
 		super();
 	}
-	public Esporte(long id, int pin, Usuario usuario, String descricao) {
+	public Esporte(String nome, String descricao) {
 		super();
-		this.id = id;
-		this.pin = pin;
-		this.usuario = usuario;
+		this.id = 0;
+		this.pin = 0;
+		this.usuario = LoggedUsuario.getUsuario();
 		this.descricao = descricao;
+		this.nome = nome;
 	}
 	
 	//metodos
