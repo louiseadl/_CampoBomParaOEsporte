@@ -33,6 +33,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.telahome.campobomparaoesporte.ui.login.LoginActivity;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -40,6 +41,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.Toast;
 
 public class Main_LoginMapsActivity extends AppCompatActivity
     implements NavigationView.OnNavigationItemSelectedListener,OnMapReadyCallback{
@@ -157,22 +159,29 @@ public class Main_LoginMapsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_view) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_viwer", Toast.LENGTH_LONG).show();
 
             //fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, new ConfiguracaoContaFragment()).commit();
 
         } else if (id == R.id.nav_tools) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_tools", Toast.LENGTH_LONG).show();
            // fragmentManager.beginTransaction().replace(R.id.nav_criacao_layout, new CriacaoFragment()).commit();
 
         } else if (id == R.id.nav_slideshow) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_slideshow", Toast.LENGTH_LONG).show();
            // fragmentManager.beginTransaction().replace(R.id.nav_criacao_layout, new MainActivity()).commit();
 
         } else if (id == R.id.nav_home) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_home", Toast.LENGTH_LONG).show();
 
         } else if (id == R.id.nav_share) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_share", Toast.LENGTH_LONG).show();
 
         } else if (id == R.id.nav_send) {
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_send", Toast.LENGTH_LONG).show();
 
         } else if (id == R.id.map){
+            Toast.makeText(Main_LoginMapsActivity.this, "nav_map", Toast.LENGTH_LONG).show();
 
 
 
