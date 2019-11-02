@@ -1434,12 +1434,12 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id text_criaresportes
 id text_gallery
 id text_home
 id text_input_password_toggle
 id text_send
 id text_share
-id text_slideshow
 id text_tools
 id textinput_counter
 id textinput_error
@@ -1549,11 +1549,11 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_criaresportes
 layout fragment_gallery
 layout fragment_home
 layout fragment_send
 layout fragment_share
-layout fragment_slideshow
 layout fragment_tools
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

@@ -14,22 +14,26 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.telahome.campobomparaoesporte.R;
 
-public class SlideshowFragment extends Fragment {
+public class CriarEsportesFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    // antes aqui estava o SlideShow
+
+    private CriarEsportesViewModel criarEsportesViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
-        slideshowViewModel.getText().observe(this, new Observer<String>() {
+        criarEsportesViewModel =
+                ViewModelProviders.of(this).get(CriarEsportesViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_criaresportes, container, false);
+        final TextView textView = root.findViewById(R.id.text_criaresportes);
+        criarEsportesViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
             }
         });
         return root;
+       // text_criaresportes
+          //      fragment_criaresportes
     }
 }
