@@ -33,6 +33,8 @@ public class CriarEsporteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_criar_esporte);
         start();
 
+        //volta para tela anterior
+
         btVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,6 +42,8 @@ public class CriarEsporteActivity extends AppCompatActivity {
                 startActivity(itVoltar);
             }
         });
+
+        //cria um esporte e salva ele no banco
 
         btCadastar.setOnClickListener(new View.OnClickListener() {
             @Override

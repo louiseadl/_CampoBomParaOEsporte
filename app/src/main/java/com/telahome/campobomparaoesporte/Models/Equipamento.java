@@ -1,6 +1,8 @@
 package com.telahome.campobomparaoesporte.Models;
 
 
+import com.telahome.campobomparaoesporte.LoggedUsuario;
+
 public class Equipamento {
 	
 	//atributos
@@ -8,6 +10,7 @@ public class Equipamento {
 	private long id;
 	private Usuario usuario;
 	private String descricao;
+	private String nome;
 	
 	//getters n setters
 	
@@ -33,11 +36,12 @@ public class Equipamento {
 	
 	//contrutores;
 	
-	public Equipamento(long id, Usuario usuario, String descricao) {
+	public Equipamento(String nome, String descricao) {
 		super();
-		this.id = id;
-		this.usuario = usuario;
+		this.id = 0;
+		this.usuario = LoggedUsuario.getUsuario();
 		this.descricao = descricao;
+		this.nome = nome;
 	}
 	public Equipamento() {
 		super();

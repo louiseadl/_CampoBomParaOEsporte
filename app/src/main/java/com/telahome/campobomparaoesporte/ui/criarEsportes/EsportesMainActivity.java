@@ -20,6 +20,10 @@ public class EsportesMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_esportes_main);
+        start();
+
+        //volta para tela anterior
+
         btVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,6 +31,8 @@ public class EsportesMainActivity extends AppCompatActivity {
                 startActivity(itVoltar);
             }
         });
+
+        //vai para tela de criar esporte
 
         btCriar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +42,15 @@ public class EsportesMainActivity extends AppCompatActivity {
             }
         });
 
+        //vai para tela de excluir esporte
 
+        btExcluir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent itDeletar = new Intent(EsportesMainActivity.this, DeletarEsporte.class);
+                startActivity(itDeletar);
+            }
+        });
     }
 
     private void start(){
