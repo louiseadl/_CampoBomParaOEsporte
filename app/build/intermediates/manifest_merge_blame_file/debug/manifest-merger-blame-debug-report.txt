@@ -48,106 +48,107 @@
 31-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:16:9-54
 32        android:supportsRtl="true"
 32-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:17:9-35
-33        android:theme="@style/AppTheme" >
-33-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:18:9-40
-34        <activity android:name="com.telahome.campobomparaoesporte.ui.criarEsportes.CriarEsporteActivity" />
-34-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:19:9-84
-34-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:19:19-72
-35        <activity android:name="com.telahome.campobomparaoesporte.ui.criarEsportes.EsportesMainActivity" />
-35-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:20:9-75
-35-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:20:19-72
-36        <activity android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.MudarNomeActivity" />
-36-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:21:9-76
-36-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:21:19-73
-37        <activity android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.ConfiguracaoContaActivity" />
-37-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:9-84
-37-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:19-81
-38        <activity
-38-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:23:9-26:59
-39            android:name="com.telahome.campobomparaoesporte.Main_LoginMapsActivity"
-39-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:24:13-51
-40            android:label="@string/title_activity_main__login_maps"
-40-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:25:13-68
-41            android:theme="@style/AppTheme.NoActionBar" />
-41-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:26:13-56
-42        <activity android:name="com.telahome.campobomparaoesporte.ui.register.Register2Activity" />
-42-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:27:9-67
-42-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:27:19-64
-43        <!--
-44             The API key for Google Maps-based APIs is defined as a string resource.
-45             (See the file "res/values/google_maps_api.xml").
-46             Note that the API key is linked to the encryption key used to sign the APK.
-47             You need a different API key for each encryption key, including the release key that is used to
-48             sign the APK for publishing.
-49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-50        -->
-51        <meta-data
-51-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:36:9-38:55
-52            android:name="com.google.android.geo.API_KEY"
-52-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:37:13-58
-53            android:value="@string/google_maps_key" />
-53-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:38:13-52
-54
-55        <activity
-55-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:40:9-42:59
-56            android:name="com.telahome.campobomparaoesporte.MapsActivity"
-56-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:41:13-41
-57            android:label="@string/title_activity_maps" />
-57-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:42:13-56
-58        <activity
-58-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:43:9-45:60
-59            android:name="com.telahome.campobomparaoesporte.ui.login.LoginActivity"
-59-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:44:13-51
-60            android:label="@string/title_activity_login" />
-60-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:45:13-57
-61        <activity android:name="com.telahome.campobomparaoesporte.MainActivity" >
-61-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:46:9-52:20
-61-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:46:19-47
-62            <intent-filter>
-62-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:47:13-51:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:48:17-69
-63-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:48:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:50:17-77
-65-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:50:27-74
-66            </intent-filter>
-67        </activity>
-68        <!-- Needs to be explicitly declared on P+ -->
-69        <uses-library
-69-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
-70            android:name="org.apache.http.legacy"
-70-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
-71            android:required="false" />
-71-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
-72
-73        <activity
-73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-81
-82        <provider
-82-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-83            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-83-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-84            android:authorities="com.telahome.campobomparaoesporte.lifecycle-process"
-84-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-85            android:exported="false"
-85-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-86            android:multiprocess="true" />
-86-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-87    </application>
-88
-89</manifest>
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity android:name="com.telahome.campobomparaoesporte.ui.criarEsportes.CriarEsporteActivity" />
+35-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:19:9-84
+35-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:19:19-72
+36        <activity android:name="com.telahome.campobomparaoesporte.ui.criarEsportes.EsportesMainActivity" />
+36-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:20:9-75
+36-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:20:19-72
+37        <activity android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.MudarNomeActivity" />
+37-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:21:9-76
+37-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:21:19-73
+38        <activity android:name="com.telahome.campobomparaoesporte.ui.configuracaoConta.ConfiguracaoContaActivity" />
+38-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:9-84
+38-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:22:19-81
+39        <activity
+39-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:23:9-26:59
+40            android:name="com.telahome.campobomparaoesporte.Main_LoginMapsActivity"
+40-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:24:13-51
+41            android:label="@string/title_activity_main__login_maps"
+41-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:25:13-68
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:26:13-56
+43        <activity android:name="com.telahome.campobomparaoesporte.ui.register.Register2Activity" />
+43-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:27:9-67
+43-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:27:19-64
+44        <!--
+45             The API key for Google Maps-based APIs is defined as a string resource.
+46             (See the file "res/values/google_maps_api.xml").
+47             Note that the API key is linked to the encryption key used to sign the APK.
+48             You need a different API key for each encryption key, including the release key that is used to
+49             sign the APK for publishing.
+50             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+51        -->
+52        <meta-data
+52-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:36:9-38:55
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:37:13-58
+54            android:value="@string/google_maps_key" />
+54-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:38:13-52
+55
+56        <activity
+56-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:40:9-42:59
+57            android:name="com.telahome.campobomparaoesporte.MapsActivity"
+57-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:41:13-41
+58            android:label="@string/title_activity_maps" />
+58-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:42:13-56
+59        <activity
+59-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:43:9-45:60
+60            android:name="com.telahome.campobomparaoesporte.ui.login.LoginActivity"
+60-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:44:13-51
+61            android:label="@string/title_activity_login" />
+61-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:45:13-57
+62        <activity android:name="com.telahome.campobomparaoesporte.MainActivity" >
+62-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:46:9-52:20
+62-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:46:19-47
+63            <intent-filter>
+63-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:47:13-51:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:48:17-69
+64-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:48:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:50:17-77
+66-->C:\Users\JoaoLucas\Desktop\CampoBomParaOEsporte\app\src\main\AndroidManifest.xml:50:27-74
+67            </intent-filter>
+68        </activity>
+69        <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\708479d88cef5c3343466b6864c58735\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\2711f07fc85c6d8afb62765d437905c0\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\c26dcca821e95cf315c68b8ba1ce15d7\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+82
+83        <provider
+83-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+84            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+85            android:authorities="com.telahome.campobomparaoesporte.lifecycle-process"
+85-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+86            android:exported="false"
+86-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+87            android:multiprocess="true" />
+87-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\JoaoLucas\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+88    </application>
+89
+90</manifest>

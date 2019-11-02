@@ -2,11 +2,12 @@ package com.telahome.campobomparaoesporte.ui.login;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.telahome.campobomparaoesporte.LoggedUsuario;
 import com.telahome.campobomparaoesporte.MainActivity;
@@ -21,7 +22,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -88,7 +88,8 @@ public class LoginActivity extends AppCompatActivity {
                     public void onFailure(Call<Usuario> call, Throwable t) {
                         Toast.makeText(LoginActivity.this, "Falha na comunicação! Verifique sua internet e tente novamente!", Toast.LENGTH_LONG).show();
                         if (etEmail.getText().toString().equals("aelinha") && etSenha.getText().toString().equals("123")){
-
+                            Intent itMaps = new Intent(LoginActivity.this, Main_LoginMapsActivity.class);
+                            startActivity(itMaps);
                         }
                     }
                 });

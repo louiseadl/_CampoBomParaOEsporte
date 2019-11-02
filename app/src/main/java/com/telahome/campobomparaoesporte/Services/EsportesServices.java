@@ -1,6 +1,5 @@
 package com.telahome.campobomparaoesporte.Services;
 
-import com.telahome.campobomparaoesporte.Models.Equipamento;
 import com.telahome.campobomparaoesporte.Models.Esporte;
 
 import java.util.ArrayList;
@@ -20,6 +19,9 @@ public interface EsportesServices {
 
     @GET("esportes/{id}")
     Call<Esporte> getEsporte(@Path("id") long id);
+
+    @GET("esportes/usuario/{id}")
+    Call<ArrayList<Esporte>> getEsporteUsuario(@Path("id") long id);
 
     @GET("esportes/")
     Call<ArrayList<Esporte>> getEsporteTodos();
