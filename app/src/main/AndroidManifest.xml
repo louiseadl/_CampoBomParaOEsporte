@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.configuracaoConta.MudarNomeActivity"></activity>
+        <activity android:name=".ui.criarEsportes.CriarEsporteActivity"></activity>
+        <activity android:name=".ui.criarEsportes.EsportesMainActivity" />
+        <activity android:name=".ui.configuracaoConta.MudarNomeActivity" />
         <activity android:name=".ui.configuracaoConta.ConfiguracaoContaActivity" />
         <activity
             android:name=".Main_LoginMapsActivity"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.criarEsportes.CriarEsporteActivity">
+
+    <EditText
+        android:id="@+id/et_nome_esporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome do esporte"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/id_descricao_esporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descricao esporte"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_cadastrar_esportee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cadastrar esporte" />
+
+    <Button
+        android:id="@+id/bt_voltar_criar_esporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+</LinearLayout>
