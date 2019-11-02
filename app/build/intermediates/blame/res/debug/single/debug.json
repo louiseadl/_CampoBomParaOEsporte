@@ -1924,10 +1924,6 @@
         "source": "C:\\Users\\Louise\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
-        "source": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
-    },
-    {
         "merged": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\Louise\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -1998,6 +1994,10 @@
     {
         "merged": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Louise\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_criaresportes.xml.flat",
+        "source": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\src\\main\\res\\layout\\fragment_criaresportes.xml"
     },
     {
         "merged": "C:\\Users\\Louise\\PastaProjetoCampoBomParaOEsporte\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

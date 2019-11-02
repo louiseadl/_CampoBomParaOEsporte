@@ -56,6 +56,11 @@
             android:layout_height="wrap_content"
             android:text="NÃO TEM CONTA? REGISTRE-SE AQUI" />
 
+        <Button
+            android:id="@+id/bt_voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLTAR" />
 
 
     </LinearLayout>
